@@ -1,0 +1,1 @@
+export const BODY_AGE = 21;
