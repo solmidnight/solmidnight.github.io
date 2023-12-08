@@ -114,7 +114,7 @@
     }
     .go-back p {
         margin: 0;
-        transform: translateY(-20px) translateX(2px);
+        line-height: 106px;
     }
     :global(div.color) {
         width: calc(100% - 3px);
@@ -133,7 +133,8 @@
     }
     .container.image :global(img) {
         width: 100%;
-        height: 100%;
+        min-width: 350px;
+        height: 100vh;
         background-position: center center;
         background-repeat: no-repeat;
         overflow: hidden;
@@ -155,6 +156,7 @@
     :global(div).fact {
         width: 100%;
         height: 100%;
+        min-width: 400px;
         display: grid;
         grid-template-columns: 200px calc(100% - 200px);
         line-height: 100px;
