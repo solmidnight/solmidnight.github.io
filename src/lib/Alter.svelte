@@ -1,5 +1,5 @@
 <a href="/" class="go-back">
-    <p>⬅</p>
+    <img src="/back-arrow.png"/>
 </a>
 <div class="container outer">
     <div class="container image">
@@ -111,10 +111,14 @@
         color: white;
         font-size: 6em;
         text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .go-back p {
-        margin: 0;
-        line-height: 106px;
+    .go-back img {
+        width: 60px;
+        height: 60px;
+        filter: invert(100%);
     }
     :global(div.color) {
         width: calc(100% - 3px);
