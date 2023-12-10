@@ -35,6 +35,15 @@
         <div class="planetary-body" style="background-color: white; width: 300px; min-height: 300px;">
             <p style="font-size: 5em">Sol</p>
         </div>
+        <a class="planetary-body" href="alter/amp" style="background-color: green; width: 175px; min-height: 175px;">
+            <p style="font-size: 2em">Amp</p>
+        </a>
+        <a class="planetary-body" href="/alter/aurora" style="background-color: #FF5B00; width: 175px; min-height: 175px;">
+            <p style="font-size: 2em">Aurora</p>
+        </a>
+        <a class="planetary-body miles" href="/alter/miles" style="background-color: black;  width: 175px; min-height: 175px;">
+            <p style="color: white; font-size: 2em">Miles</p>
+        </a>
         <a class="planetary-body" href="alter/dominic" style="background-color: grey; width: 175px; min-height: 175px;">
             <p style="font-size: 2em">Dominic</p>
         </a>
@@ -46,15 +55,6 @@
         </a>
         <a class="planetary-body" href="alter/trinity" style="background-color: pink; width: 75px; min-height: 75px; transform: translate(-60px, -30px);">
             <p style="font-size: 1em">Trinity</p>
-        </a>
-        <a class="planetary-body" href="alter/amp" style="background-color: green; width: 175px; min-height: 175px;">
-            <p style="font-size: 2em">Amp</p>
-        </a>
-        <a class="planetary-body" href="/alter/aurora" style="background-color: #FF5B00; width: 175px; min-height: 175px;">
-            <p style="font-size: 2em">Aurora</p>
-        </a>
-        <a class="planetary-body" href="/alter/abyss" style="background-color: black; border: 4px solid white; width: 175px; min-height: 175px;">
-            <p style="color: white; font-size: 2em">Abyss</p>
         </a>
         <a class="planetary-body" href="/alter/two" style="background-color: black; border: 4px solid white; width: 175px; min-height: 175px;">
             <p style="color: white; font-size: 2em">2</p>
