@@ -20,13 +20,34 @@
 				padding: 0;
 				background-color: black;
 			}
+			.miles {
+				border: 5px double transparent;
+				background-image: linear-gradient(black, black), 
+				linear-gradient(
+					90deg,
+					rgba(255, 0, 0, 1) 0%,
+					rgba(255, 154, 0, 1) 10%,
+					rgba(208, 222, 33, 1) 20%,
+					rgba(79, 220, 74, 1) 30%,
+					rgba(63, 218, 216, 1) 40%,
+					rgba(47, 201, 226, 1) 50%,
+					rgba(28, 127, 238, 1) 60%,
+					rgba(95, 21, 242, 1) 70%,
+					rgba(186, 12, 248, 1) 80%,
+					rgba(251, 7, 217, 1) 90%,
+					rgba(255, 0, 0, 1) 100%
+				);
+				border-image-slice: 1; 
+				background-origin: border-box;
+				background-clip: content-box, border-box;
+			}
 		</style>
 		
 		<link href="/_app/immutable/assets/Alter.5f43590a.css" rel="stylesheet">
-		<link rel="modulepreload" href="/_app/immutable/entry/start.51b2370f.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.22d52940.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.e108d1fd.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.43a00871.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.9a71b161.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.2cac421d.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.6e11c5b8.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/index.a21d6cee.js">
 		<link rel="modulepreload" href="/_app/immutable/nodes/0.cc2a4f72.js">
 		<link rel="modulepreload" href="/_app/immutable/nodes/12.607408ec.js">
@@ -37,7 +58,7 @@
 			
 			<script>
 				{
-					__sveltekit_17buc = {
+					__sveltekit_1t8k9zy = {
 						base: "",
 						env: {}
 					};
@@ -47,8 +68,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("/_app/immutable/entry/start.51b2370f.js"),
-						import("/_app/immutable/entry/app.9a71b161.js")
+						import("/_app/immutable/entry/start.22d52940.js"),
+						import("/_app/immutable/entry/app.6e11c5b8.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 12],
