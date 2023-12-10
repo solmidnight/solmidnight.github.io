@@ -6,7 +6,7 @@
 <Alter>
     <span slot="image"></span>
     <span slot="name">Abyss</span>
-    <span slot="role">Persecutor, Trauma Holder</span>
+    <span slot="role">Protector, Trauma Holder</span>
     <span slot="age">-</span>
     <span slot="gender">-</span>
     <span slot="sexuality">-</span>
@@ -14,6 +14,6 @@
     <span slot="song">-</span>
     <span slot="food">-</span>
     <span slot="description">
-        Speculated alter.
+        Speculated alter. Hasn't fronted since becoming self-aware.
     </span>
 </Alter>
