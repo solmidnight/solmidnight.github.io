@@ -11,9 +11,9 @@
     <span slot="gender">Man</span>
     <span slot="sexuality">Pretty sure I am gay tho</span>
     <span slot="color"><div class="color miles" style="background-color: black; box-sizing: border-box;"></div></span>
-    <span slot="song">-</span>
+    <span slot="song">Blinding Lights - The Weeknd</span>
     <span slot="food">-</span>
     <span slot="description">
-        I was literally just thrust into existence over a flashback, by the elusive gatekeeper that none of us can pinpoint! Favorite color is rainbow black tho.
+        I protect the system from the dangers of the night, and have recently been hosting. Favorite color is rainbow black.
     </span>
 </Alter>

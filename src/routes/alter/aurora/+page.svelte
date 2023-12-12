@@ -14,12 +14,7 @@
     <span slot="song">In The Night - The Weeknd</span>
     <span slot="food">Hummus</span>
     <span slot="description">
-        Hi it is I~~ Aurora 🧡! I love life, the universe, and everything to a fault 😂! I am soft spoken and like to imagine myself as smaller than the body. 
+        I love life, the universe, and everything to a fault 😂! I am soft spoken and like to imagine myself as smaller than the body. 
         I like to dance, sing. I thrive when my environment is tidy and my body is clean. I love to cook and eat; hopefully all that hummus goes to my hips! 
-        <br>
-        <br>
-        I don't front often, and when I do, Amp usually fronts with me. I don't have much contact with the other alters in the system, besides the elusive numbered alters
-        which seem to influence us all (regardless of sub-system). When I do front though, I own it, baby!
-
     </span>
 </Alter>
