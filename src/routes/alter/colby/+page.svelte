@@ -6,7 +6,7 @@
 <Alter>
     <span slot="image"></span>
     <span slot="name">Colby</span>
-    <span slot="role">Core?, Little, Trauma Holder</span>
+    <span slot="role">Little, Trauma Holder</span>
     <span slot="age">10</span>
     <span slot="gender">Boy</span>
     <span slot="sexuality">Nonsexual</span>
