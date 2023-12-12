@@ -6,7 +6,7 @@
 <Alter>
     <span slot="image"><img src="/aurora.jpg"/></span>
     <span slot="name">Aurora</span>
-    <span slot="role">Caretaker, Sexual Alter/Protector</span>
+    <span slot="role">Caretaker</span>
     <span slot="age">{BODY_AGE}</span>
     <span slot="gender">Woman</span>
     <span slot="sexuality">Pansexual</span>
