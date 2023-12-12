@@ -14,9 +14,6 @@
     <span slot="song">Starboy - The Weeknd</span>
     <span slot="food">Chicken Wings</span>
     <span slot="description">
-        I have historically been the most dangerous alter. It turns out there were other (number) alters influencing me;
-        pulling the strings like puppeteers in the background. I forget that the body is human, I think I can achieve anything; I can access all three
-        subsystems, although my home subsystem is with Aurora and Miles. Due to my baseline grandiosity and feelings of invincibility,
-        my sensitivity to manic tendencies is Amplified compared to other alters.
+        I have historically worked against the best interest of the system. I am now working on being a better alter and serving my purpose in a productive capacity.
     </span>
 </Alter>
