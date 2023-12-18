@@ -9,9 +9,10 @@
     <span slot="role">Caretaker</span>
     <span slot="age">{BODY_AGE}</span>
     <span slot="gender">Woman</span>
+    <span slot="pronouns">she/her/hers</span>
     <span slot="sexuality">Pansexual</span>
-    <span slot="color"><div class="color" style="background-color: #FF5B00"></div></span>
-    <span slot="song">In The Night - The Weeknd</span>
+    <span slot="color" style="width: 100%; height: 100%;"><div class="color" style="width: 100%; height: 100%; background-color: #FF5B00"></div></span>
+    <span slot="song">-</span>
     <span slot="food">Hummus</span>
     <span slot="description">
         I love life, the universe, and everything to a fault 😂! I am soft spoken and like to imagine myself as smaller than the body. 

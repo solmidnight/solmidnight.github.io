@@ -1,215 +1,158 @@
-<a href="/" class="go-back">
-    <img src="/back-arrow.png"/>
-</a>
-<div class="container outer">
-    <div class="container image">
-        <slot name="image"></slot>
+<div id="outer-container">
+    <div class="flex-pad"/>
+    <div id="data-container">
+        <a class="back" href="/">⬅️ Home</a>
+        <h1><slot name="name"></slot></h1>
+        <div class="image-container">
+            <slot name="image"></slot>
+        </div>
+        <span class="vertical-padding"/>
+        <div id="info-container">
+            <div id="inner-container">
+                <h2>Role</h2>
+                <p><slot name="role"></slot></p>
+            </div>
+        </div>
+        <div id="info-container">
+            <div id="inner-container">
+                <h2>Age</h2>
+                <p><slot name="age"></slot></p>
+            </div>
+        </div>
+        <div id="info-container">
+            <div id="inner-container">
+                <h2>Gender</h2>
+                <p><slot name="gender"></slot></p>
+            </div>
+        </div>
+        <div id="info-container">
+            <div id="inner-container">
+                <h2>Pronouns</h2>
+                <p><slot name="pronouns"></slot></p>
+            </div>
+        </div>
+        <div id="info-container">
+            <div id="inner-container">
+                <h2>Sexuality</h2>
+                <p><slot name="sexuality"></slot></p>
+            </div>
+        </div>
+        <h2>Favorites</h2>
+        <h3>Color</h3>
+        <div class="image-container" style="height: 100px">
+            <slot name="color"></slot>
+        </div>
+        <div id="info-container">
+            <div id="inner-container">
+                <h3>Song</h3>
+                <p><slot name="song"></slot></p>
+            </div>
+        </div>
+        <div id="info-container">
+            <div id="inner-container">
+                <h3>Food</h3>
+                <p><slot name="food"></slot></p>
+            </div>
+        </div>
+        <div id="info-container">
+            <div id="inner-container">
+                <h2>Description</h2>
+                <p><slot name="description"></slot></p>
+            </div>
+        </div>
+        <div class="flex-pad"/>
     </div>
-    <div class="container info">
-        <div class="container basic">
-            <div class="fact" style="border-right: 4px solid white;">
-                <span class="title">
-                    <p>Name</p>
-                </span>
-                <p  style="width: 100%; text-align: center;">
-                    <slot name="name">
-
-                    </slot>
-                </p>
-            </div>
-            <div class="fact">
-                <span class="title">
-                    <p>Role</p>
-                </span>
-                <p style="width: 100%; text-align: center;">
-                    <slot name="role">
-
-                    </slot>
-                </p>
-            </div>
-        </div>
-        <div class="container basic-two">
-            <div class="fact" style="border-right: 4px solid white;">
-                <span class="title">
-                    <p>Age</p>
-                </span>
-                <p style="width: 100%; text-align: center;">
-                    <slot name="age">
-
-                    </slot>
-                </p>
-            </div>
-                <div class="fact" style="border-right: 4px solid white;">
-                    <span class="title">
-                        <p>Gender</p>
-                    </span>
-                    <p style="width: 100%; text-align: center;">
-                        <slot name="gender">
-    
-                        </slot>
-                    </p>
-                </div>
-                <div class="fact">
-                    <span class="title">
-                        <p>Sexuality</p>
-                    </span>
-                    <p style="width: 100%; text-align: center;">
-                        <slot name="sexuality">
-    
-                        </slot>
-                    </p>
-                </div>
-        </div>
-        <div class="container basic-two">
-            <div class="fact" style="border-right: 4px solid white;">
-                <span class="title">
-                    <p>Color</p>
-                </span>
-                <slot name="color">
-
-                </slot>
-            </div>
-                <div class="fact" style="border-right: 4px solid white;">
-                    <span class="title">
-                        <p>Song</p>
-                    </span>
-                    <p style="width: 100%; text-align: center;">
-                        <slot name="song">
-    
-                        </slot>
-                    </p>
-                </div>
-                <div class="fact">
-                    <span class="title">
-                        <p>Food</p>
-                    </span>
-                    <p style="width: 100%; text-align: center;">
-                        <slot name="food">
-    
-                        </slot>
-                    </p>
-                </div>
-        </div>
-        <div class="description">
-            <p class="description-title">About Me</p>
-            <p class="explain">
-                <slot name="description"></slot>
-            </p>
-        </div>
-    </div>
+    <div class="flex-pad"/>
 </div>
 
 <style>
-    .go-back {
-        width: 100px;
-        height: 100px;
-        top: 20px;
-        left: 20px;
-        position: absolute;
-        border-radius: 1000px;
-        background-color: black;
-        color: white;
-        font-size: 6em;
+    #outer-container {
+        min-height: 100%;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        flex-direction: row;
+        display: flex;
+        flex-grow: 1;
+    }
+    .flex-pad {
+        flex-grow: 1;
+    }
+    #outer-container :global(a) {
         text-decoration: none;
+        font-family: Monsterrat;
+        color: white;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    #outer-container :global(h1) {
+        font-family: Monsterrat;
+        color: white;
+        font-size: 100px;
+        line-height: 100px;
+    }
+    #outer-container :global(h2) {
+        width: 100%;
+        text-align: center;
+        font-family: Monsterrat;
+        color: white;
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    #outer-container :global(h3) {
+        width: 100%;
+        text-align: center;
+        font-family: Monsterrat;
+        color: white;
+        font-size: 25px;
+        line-height: 25px;
+    }
+    #outer-container :global(p) {
+        width: 100%;
+        text-align: center;
+        font-family: Monsterrat;
+        color: white;
+        font-size: 25px;
+        line-height: 25px;
+    }
+    #outer-container :global(img) {
+        width: 100%;
+    }
+    .vertical-padding {
+        width: 100%;
+        padding-top: 50px;
+    }
+    #data-container {
+        min-height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
         display: flex;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
-    }
-    .go-back img {
-        width: 60px;
-        height: 60px;
-        filter: invert(100%);
-    }
-    :global(div.color) {
-        width: calc(100% - 3px);
-        height: calc(100% - 4px);
-        margin-left: 3px;
-        margin-top: 4px;
-    }
-    .container.outer {
+        border-radius: 50px;
+        border: 4px solid white;
+        max-width: 600px;
         width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
+        padding-bottom: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
-    .container.outer .container.image {
-        border-right: 4px solid white;
+    #info-container {
+        width: 100%;
     }
-    .container.image :global(img) {
-        width: 100%;
-        min-width: 350px;
-        height: 100vh;
-        background-position: center center;
-        background-repeat: no-repeat;
-        overflow: hidden;
-        object-fit: cover;
-    }
-    .container.outer :global(p) {
-        color: white;
-        font-family: monsterrat;
-        margin: 0px;
-        font-size: 1.5em;
-
-    }
-    .container.outer .container.info {
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 3fr;
-    }
-    :global(div).fact {
-        width: 100%;
-        height: 100%;
-        min-width: 400px;
-        display: grid;
-        grid-template-columns: 200px calc(100% - 200px);
-        line-height: 100px;
-        }
-    .container.basic {
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        line-height: 100px;
-        border-bottom: 4px solid white;
-    }
-    .container.basic-two {
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        line-height: 100px;
-        border-bottom: 4px solid white;
-    }    
-    .description {
-        width: 100%;
-        height: 100%;
+    .image-container {
+        width: 100px;
+        border-radius: 1000px;
+        overflow:hidden;
         display: flex;
-        flex-direction: row;
+        border: 4px solid white;
     }
-    .description-title {
-        min-width: 200px;
-        height: 100px;
-        line-height: 100px;
-        text-align: center;
-        border-right: 4px solid white;
-        border-bottom: 4px solid white;
-        color: #B0B3B8 !important;
-    }
-    .description .explain {
-        line-height: 40px;
-        font-size: 2em;
-        color: white;
-        padding:10px;
-    }
-    .title {
-        height: 100%;
-        width: 200px;
-        border-right: 4px solid white;
-    }
-    .title p {
+    #image-container :global(img) {
         width: 100%;
-        text-align: center;
-        color: #B0B3B8;
+        object-fit: contain;
     }
+
 </style>
